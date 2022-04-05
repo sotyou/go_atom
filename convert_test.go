@@ -1,13 +1,13 @@
 package atom
 
 import (
-	"github.com/k0kubun/pp"
-	"github.com/sotyou/logger"
-	"io"
-	"net/url"
-	"reflect"
-	"strings"
-	"testing"
+    "github.com/k0kubun/pp"
+    logger "github.com/sotyou/go_logger"
+    "io"
+    "net/url"
+    "reflect"
+    "strings"
+    "testing"
 )
 
 func generatorCase(t string) (io.Reader, interface{}) {

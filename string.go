@@ -4,7 +4,7 @@ import (
     "fmt"
     "github.com/gobeam/stringy"
     "github.com/shopspring/decimal"
-    "github.com/sotyou/logger"
+    logger "github.com/sotyou/go_logger"
     "net/url"
     "strconv"
     "time"
